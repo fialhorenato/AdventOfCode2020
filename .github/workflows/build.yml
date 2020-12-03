@@ -13,6 +13,6 @@ jobs:
         with:
           java-version: 11.0.4
       - name: Build with Gradle
-        run: ./gradlew clean build
+        run: gradle clean build
       - name: Test with Gradle
-        run: ./gradlew test
+        run: gradle test

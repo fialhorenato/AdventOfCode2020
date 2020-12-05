@@ -9,6 +9,7 @@ repositories {
 }
 
 dependencies {
+    api("commons-validator:commons-validator:1.7")
     implementation("org.jetbrains.kotlin:kotlin-stdlib")
     testImplementation(platform("org.junit:junit-bom:5.7.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
